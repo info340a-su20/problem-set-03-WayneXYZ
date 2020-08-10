@@ -1,4 +1,24 @@
 body {
   font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
   margin: 0;
+  box-sizing: border-box;
 }
+/* problem 1 */
+  .flex-div {
+    display: flex;
+  }
+  .first-col {
+    flex-basis: 240px;
+  }
+  .second-col {
+    background-color: #eee;
+    flex: 'flex-grow';
+  }
+  .third-col {
+    flex-basis: 180px;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  .col {
+    padding: 1em;
+  }

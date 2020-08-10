@@ -22,3 +22,8 @@ body {
   .col {
     padding: 1em;
   }
+/* problem 2*/
+  .flex-box-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
